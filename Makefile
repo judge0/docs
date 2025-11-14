@@ -18,3 +18,8 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+# Add -b dirhtml for main_nav_links to work as expected.
+# Add --pre-build "rm -rf build" to ensure a clean build directory.
+livehtml:
+	sphinx-autobuild -b dirhtml --pre-build "rm -rf build" "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
