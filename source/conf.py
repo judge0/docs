@@ -1,27 +1,16 @@
-# Configuration file for the Sphinx documentation builder.
-#
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
-
-# -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+from sphinxawesome_theme.postprocess import Icons
 
 project = 'Judge0 Docs'
 copyright = '2025, Judge0 d.o.o.'
 author = 'Judge0 d.o.o.'
-
-# -- General configuration ---------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = []
 
 templates_path = ['_templates']
 exclude_patterns = []
 
-
-
-# -- Options for HTML output -------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
-html_theme = 'alabaster'
+html_title = project
+html_theme = 'sphinxawesome_theme'
+html_permalinks_icon = Icons.permalinks_icon
 html_static_path = ['_static']
+html_show_sphinx = False
