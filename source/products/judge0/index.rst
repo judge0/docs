@@ -8,4 +8,4 @@ Judge0
     flavors
     supported_languages
     http_api/index
-    python_sdk
+    Python SDK <https://judge0.github.io/judge0-python>

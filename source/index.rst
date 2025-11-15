@@ -11,5 +11,5 @@ Judge0 Docs
    contribute
    company
    payment_methods
-   Community <https://discord.judge0.com>
-   GitHub <https://github.com/judge0>
+   Discord Community <https://discord.judge0.com>
+   GitHub Organization <https://github.com/judge0>

@@ -1,6 +1,11 @@
 Contribute
 ==========
 
+We welcome contributions to the Judge0 documentation! Whether you're fixing typos, adding new content, or improving existing sections, your help is greatly appreciated.
+
+Instructions
+------------
+
 1. Install `uv <https://docs.astral.sh/uv/getting-started/installation>`_.
 2. Fork the repository on `GitHub <https://github.com/judge0/docs/fork>`_.
 3. Clone your forked repository.
