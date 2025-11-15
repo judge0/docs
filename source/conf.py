@@ -1,7 +1,7 @@
 from sphinxawesome_theme.postprocess import Icons
 
 project = 'Judge0 Docs'
-copyright = '2025, Judge0 d.o.o.'
+copyright = '2016-%Y, Judge0 d.o.o.'
 author = 'Judge0 d.o.o.'
 
 extensions = []
