@@ -2,6 +2,8 @@ Judge0
 ======
 
 .. toctree::
+    :hidden:
+
     Introduction <self>
     get_started/index
     pricing

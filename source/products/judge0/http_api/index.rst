@@ -2,6 +2,8 @@ HTTP API
 ========
 
 .. toctree::
+    :hidden:
+
     Introduction <self>
     authentication
     authorization

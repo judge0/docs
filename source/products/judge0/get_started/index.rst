@@ -2,6 +2,8 @@ Get Started
 ===========
 
 .. toctree::
+    :hidden:
+
     Introduction <self>
     nokia
     atd

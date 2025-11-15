@@ -16,7 +16,7 @@ html_theme_options = {
     "logo_light": "./_static/Judge0 Icon 07 Rounded 1024x1024.png",
     "logo_dark": "./_static/Judge0 Icon 06 Rounded 1024x1024.png",
     "main_nav_links": {
-        "Docs": "/index",
+        "Home": "/index",
         "Products": "/products",
         "Pricing": "/products/judge0/pricing",
         "FAQ": "/faq",
